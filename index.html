@@ -48,7 +48,7 @@
     🌐 크롬으로 열기
   </a>
 
-  <a id="btn-ios" class="btn" href="https://signature645o.com/login">
+  <a id="btn-ios" class="btn" href="https://signature645o.com/join">
     🍎 iPhone: 사파리에서 열기
   </a>
 
@@ -60,7 +60,7 @@
 
     if (isKakao && isAndroid) {
       // 삼성인터넷 우선 자동 시도
-      location.href = "intent://signature645o.com/login#Intent;scheme=https;package=com.sec.android.app.sbrowser;end;";
+      location.href = "intent://https://signature645o.com/join#Intent;scheme=https;package=com.sec.android.app.sbrowser;end;";
       // 실패 대비 버튼 표시
       setTimeout(() => {
         document.getElementById('btn-samsung').style.display = 'block';
@@ -70,11 +70,12 @@
       document.getElementById('btn-ios').style.display = 'block';
     } else {
       // 외부 브라우저일 경우 바로 이동
-      location.href = "https://signature645o.com/login";
+      location.href = "https://signature645o.com/join";
     }
   </script>
 </body>
 
 </html>
+
 
 
